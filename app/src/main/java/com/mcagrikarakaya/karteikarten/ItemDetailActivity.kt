@@ -18,7 +18,7 @@ class ItemDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ıtem_detail)
+        setContentView(R.layout.activity_item_detail)
         setSupportActionBar(detail_toolbar)
 
         fab.setOnClickListener { view ->

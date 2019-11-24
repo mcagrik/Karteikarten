@@ -11,9 +11,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 
 import com.mcagrikarakaya.karteikarten.dummy.DummyContent
-import kotlinx.android.synthetic.main.activity_ıtem_list.*
-import kotlinx.android.synthetic.main.ıtem_list_content.view.*
-import kotlinx.android.synthetic.main.ıtem_list.*
+import kotlinx.android.synthetic.main.activity_item_list.*
+import kotlinx.android.synthetic.main.item_list_content.view.*
+import kotlinx.android.synthetic.main.item_list.*
 
 /**
  * An activity representing a list of Pings. This activity
@@ -33,7 +33,7 @@ class ItemListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_ıtem_list)
+        setContentView(R.layout.activity_item_list)
 
         setSupportActionBar(toolbar)
         toolbar.title = title
@@ -91,7 +91,7 @@ class ItemListActivity : AppCompatActivity() {
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
             val view = LayoutInflater.from(parent.context)
-                .inflate(R.layout.ıtem_list_content, parent, false)
+                .inflate(R.layout.item_list_content, parent, false)
             return ViewHolder(view)
         }
 

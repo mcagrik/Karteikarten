@@ -6,7 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NavUtils
 import android.view.MenuItem
-import kotlinx.android.synthetic.main.activity_ıtem_detail.*
+import kotlinx.android.synthetic.main.activity_item_detail.*
 
 /**
  * An activity representing a single Item detail screen. This
